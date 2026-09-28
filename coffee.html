@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE SHOP</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        color:rgb(242, 185, 109);
+        background-color: rgb(102, 83, 20);
+        line-height: 1.6;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header{
+        min-height:100vh;
+        padding:20px 8%;
+        color:rgb(254, 254, 253);
+        background:url("https://i.pinimg.com/736x/d5/7c/1e/d57c1e61e3d9c4519c271f9a0629e37a.jpg")center/cover no-repeat;
+    }
+    nav{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:30px;
+    }
+    .logo{
+        font-size:30px;
+        font-weight:bold;
+        color:rgb(182, 157, 124);
+    }
+    nav a{
+        text-decoration:none;
+        margin-left:25px;
+        transition:0.3s;
+        color:rgb(196, 189, 181);
+        FONT-WEIGHT:BOLD;
+    }
+    nav a:hover{
+        color:rgb(255, 255, 255);
+    }
+    .hero{
+        max-width:650px;
+        padding-top:16vh;
+        }
+    .hero h1{
+        font-size:58px;
+        line-height:1.1;
+        margin-bottom:20px;
+    }
+    .hero p{
+        font-size:20px;
+        margin-bottom:30px;
+    }
+    .btn{
+        display:inline-block;
+        padding:13px 25px;
+        border-radius:30px;
+        background-color:rgb(206, 129, 29);
+        color:black;
+        text-decoration:none;
+        font-weight:bold;
+        transition:0.3s;
+       }
+    .btn:hover{
+        background-color:rgb(255, 255, 255);
+        transform:translateY(-5px);
+    }
+    section{
+        padding:70px 8%;
+        background-color:rgb(50, 37, 7);
+    }
+    .about{
+        display:flex;
+        align-items:center;
+        gap:50px;
+    }
+    .about-image,about-content{
+        flex:1;
+    }
+    .about-image img{
+        width: 500px;
+        border-radius:550px;
+        height:360px;
+        object-fit:cover;
+        border-radius:18px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    }
+    .about-content h2{
+        font-size:30px;
+        margin-bottom:20px;
+    }
+    .info{
+        display:flex;
+        gap:25px;
+        margin: 15px;
+    }
+    .info-card{
+        flex:1;
+        padding:20px;
+        border-radius:14px;
+        background-color:rgb(88, 66, 14);
+        box-shadow:0 5px 18px rgba(0,0,0,0.3);
+    }
+    .info-card h3{
+        color:rgb(17, 12, 1);
+        margin-bottom:10px;
+    }
+    .section-title{
+        text-align:center;
+        margin: bottom 100px;
+    }
+    .section-title p{
+        font-size:18px;
+        margin-bottom:30px;
+    }
+
+    .section-title h2{
+        align-items:center;
+        font-size:30px;
+    }
+    .card img{
+        height:250px;
+        width:100%;
+        object-fit:cover;
+    }
+    .menu{
+        background-color:rgb(69, 51, 11);
+    }
+    .card{
+        display:flex;
+        gap:25px;
+    }
+    .cards{
+        overflow:hidden;
+        background-color:rgb(88, 66, 14);
+        border-radius:20px;
+        box-shadow:0 5px 18px rgba(0,0,0,0.3);
+    }
+    .cards:hover{
+        transform:translateY(-5px);
+        box-shadow:0 5px 18px rgba(0,0,0,0.3);
+    }
+    .cards h3{
+        font-size:20px;
+        color:rgb(58, 15, 15);   
+    }
+    .cards span{
+        font-size:18px;
+        color:rgb(58, 15, 15);
+        font-weight:bold;
+        margin-bottom:10px;
+    }
+    .cards p{
+        font-size:16px;
+        color:rgb(244, 244, 244);
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> THE COFFEE SHOP</div>
+            <div>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>
+        </nav>
+        <div class="hero">
+            <h1>Bewing Coffee <br>Brewing Moments</h1>
+            <p>Enjoy the best coffee in town! and create unforgettable moments.</p>
+            <button class="btn">EXPLORE MENU</button>
+    </header>
+    <section class="about">
+        <div class="about-image">
+            <img src="https://i.pinimg.com/1200x/f3/6f/28/f36f285cc41fd3ea168b90d2932333f0.jpg" alt="Coffee Shop">
+        </div>
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>We are a coffee shop that is dedicated to providing the best coffee experience for our customers. Our baristas are trained to craft the perfect cup of coffee, and we source our beans from the finest coffee farms around the world.</p>
+        <div class="info">
+            <div class="info-card">
+                <h3>Opening Hours</h3>
+                <p>Mon-Sat: 7am - 10pm</p>
+                <p>Sun: 8am - 8pm</p>
+            </div>
+            <div class="info-card">
+                <h3>Location</h3>
+                <p>123 Coffee Street <br> kolkata</p>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+    <section div class="menu">
+        <div class="section-title">
+            <h2>Customer Favourites</h2>
+            <p>Discover our most popular coffee blends and treats that keep our customers coming back for more.</p>
+        <div class="card">
+            <div class="cards">
+                <img src="https://i.pinimg.com/736x/dd/5b/e5/dd5be523f96b3e2777ef58d0286c07d1.jpg" alt="Coffee">
+                <h3>Classic Cappucino</h3>
+                <p>A rich and creamy coffee blend that's perfect for any time of day.</p>
+                <span class="price">$3.50</span>
+            </div>
+            <div class="cards">
+                <img src="https://i.pinimg.com/1200x/80/af/5f/80af5f93e6c721249c7f4ef83f1583d1.jpg" alt="Coffee">
+                <h3>Mocha Latte</h3>
+                <p>A delicious blend of chocolate and coffee, topped with whipped cream.</p>
+                <span class="price">$4.00</span>
+            </div>
+            <div class="cards">
+                <img src="https://i.pinimg.com/736x/54/a6/cd/54a6cd1f4e06c65d1fc77dc8ef2dd137.jpg" alt="Coffee">
+                <h3>Caramel Macchiato</h3>
+                <p>A sweet and creamy coffee blend with a hint of caramel flavor.</p>
+                <span class="price">$4.50</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
